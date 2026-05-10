@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell($lines = Get-Content \"c:\\\\Users\\\\aryan\\\\Downloads\\\\RVC1006Nvidia\\\\RVC1006Nvidia\\\\logs\\\\samay\\\\filelist.txt\"; Write-Output \"Lines: $\\($lines.Count\\)\"; Get-ChildItem \"c:\\\\Users\\\\aryan\\\\Downloads\\\\RVC1006Nvidia\\\\RVC1006Nvidia\\\\logs\\\\samay\\\\\" | Where-Object { $_.Extension -eq \".pth\" })"
+    ]
+  }
+}
